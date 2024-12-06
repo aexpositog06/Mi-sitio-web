@@ -10,53 +10,66 @@
 <body>
 
 <header>
-    <h1>Bienvenidos a Harran</h1>
+    <h1 id="header-text">Bienvenidos a Harran</h1>
 </header>
 
 <nav>
-    <a href="#historia">Historia</a>
-    <a href="#ubicacion">Ubicación</a>
-    <a href="#peligros">Peligros</a>
-    <a href="#contacto">Contacto</a>
+    <select id="language-selector">
+        <option value="es" selected>Español</option>
+        <option value="en">English</option>
+    </select>
+</div>
+    <a id="nav-historia" href="#historia">Historia</a>
+    <a id="nav-ubicacion" href="#ubicacion">Ubicación</a>
+    <a id="nav-peligros" href="#peligros">Peligros</a>
+    <a id="nav-contacto" href="#contacto">Contacto</a>
+    <div class="header-options">
+        <input type="text" id="search-bar" placeholder="Buscar..." />
 </nav>
+
+
 
 <main>
     <section id="historia">
-        <h2>Historia de Harran</h2>
-        <p>Harran es una ciudad ficticia ubicada en un entorno costero inspirado en Medio Oriente...</p>
+        <h2 id="section-historia">Historia de Harran</h2>
+        <p id="section-historia-content">Harran es una ciudad ficticia ubicada en un entorno costero inspirado en Medio Oriente...</p>
     </section>
 
     <section id="ubicacion">
-        <h2>Ubicación Geográfica</h2>
-        <p>Harran está rodeada de montañas y un vasto mar, lo que la convierte en un lugar hermoso pero aislado...</p>
+        <h2 id="section-ubicacion">Ubicación Geográfica</h2>
+        <p id="section-ubicacion-content">Harran está rodeada de montañas y un vasto mar, lo que la convierte en un lugar hermoso pero aislado...</p>
     </section>
 
     <section id="peligros">
-        <h2>Peligros en Harran</h2>
-        <p>La ciudad está llena de peligros constantes. Durante el día, los infectados son lentos...</p>
+        <h2 id="section-peligros">Peligros en Harran</h2>
+        <p id="section-peligros-content">La ciudad está llena de peligros constantes. Durante el día, los infectados son lentos...</p>
     </section>
 
     <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Si tienes alguna duda o sugerencia sobre esta página...</p>
+        <h2 id="section-contacto">Contacto</h2>
+        <p id="section-contacto-content">Si tienes alguna duda o sugerencia sobre esta página...</p>
         <p><strong>Teléfono:</strong> +34 666 555 444</p>
         <p><strong>Email:</strong> info@harran-city.com</p>
 
         <form action="#" method="POST">
-            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+            
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required />
 
-            <input type="email" id="email" name="email" placeholder="Email" required>
+         
+            <input type="email" id="email" name="email" placeholder="Email" required />
 
+          
             <textarea id="mensaje" name="mensaje" rows="5" placeholder="Comentario" required></textarea>
 
-            <input type="submit" value="Enviar Sugerencia">
+            <input type="submit" value="Enviar Sugerencia" />
         </form>
     </section>
 </main>
 
 <footer>
-    <p>&copy; 2024 Página de fanáticos de Dying Light. No oficial.</p>
+    <p id="footer-text">&copy; 2024 Página de fanáticos de Dying Light. No oficial.</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>

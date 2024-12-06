@@ -1,0 +1,20 @@
+{
+    "header": "Welcome to Harran",
+    "nav": {
+        "historia": "History",
+        "ubicacion": "Location",
+        "peligros": "Dangers",
+        "contacto": "Contact"
+    },
+    "sections": {
+        "historia": "History of Harran",
+        "historiaContent": "Harran is a fictional city set in a coastal environment inspired by the Middle East...",
+        "ubicacion": "Geographic Location",
+        "ubicacionContent": "Harran is surrounded by mountains and a vast sea, making it a beautiful but isolated place...",
+        "peligros": "Dangers in Harran",
+        "peligrosContent": "The city is full of constant dangers. During the day, the infected are slow...",
+        "contacto": "Contact",
+        "contactoContent": "If you have any questions or suggestions about this page..."
+    },
+    "footer": "&copy; 2024 Dying Light Fansite. Not official."
+}
